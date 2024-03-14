@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*
+{
+    overflow: hidden; 
+}
+
+.colorred
+{
+  transition: 1s; 
+  background-color: red;
+    
+}
+
+  body
+{
+    
+    /* background-image: url("./images/bg-desktop.svg"); 
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif ;
+    height: 100vh;
+
+    background-color: black; 
+    color: white;
+    
+     
+}
+
+button
+{
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    position: relative;
+    right: 130px;
+    
+}
+
+button:hover
+{
+    background-color: blueviolet;
+}
+
+h1
+{
+    font-family: 'Poppins';
+    line-height: 1.2;
+    font-weight: 400 600;
+}
+
+.logo
+{
+position: relative;
+bottom: 280px;
+left: 69px;
+font-weight: 400 600;
+font-size: 25px;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:justify;
+    align-items: center;
+  
+    position: relative;
+    right: 60px; 
+    width: 30%;
+    
+     
+}
+
+.image
+{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    position: relative;
+    right: 190px;
+    top: 20px;
+}   
+
+ .menuitem {
+    display :inline-block;
+    position: absolute;
+    top: 50px;
+    right: 90px; 
+    cursor: pointer;
+}
+
+.menuitem a
+{
+margin-left: 10px;
+}
+
+
+
+/*
+.menubar div
+{
+    width: 80%;
+    height: 8%;
+    background-color: gray;
+    margin: 5px 0;
+
+}
+.menubar div:first-child{
+    margin-top: 0;
+}    
+.menubar div:last-child{
+    margin-bottom: 0;
+}
+ */
+ 
+/* .o
+{
+    height: 1%;
+    width: 3%;
+    background-color: gray;
+    position: absolute;
+}
+
+.n
+{
+    height: 1%;
+    width: 3%;
+    background-color: red;
+    position: absolute;
+    
+} */
